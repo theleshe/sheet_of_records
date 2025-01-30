@@ -1,7 +1,9 @@
 from fastapi import FastAPI
+from database import engine, Base
+from records import router
 
 app = FastAPI()
 
-@app.get("/")
-def test():
-    return {"Hello" : "Test"}
+Base.metadata.create_all(bind=engine)
+
+app.include_router(router=router)
