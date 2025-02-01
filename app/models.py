@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, MetaData
+from sqlalchemy import Column, Integer, String, Date
 from database import Base
 
 class Record(Base):
@@ -6,3 +6,4 @@ class Record(Base):
     id = Column(Integer, primary_key=True)
     record = Column(String)
     author = Column(String)
+    date_of_record = Column(String, nullable=True)
