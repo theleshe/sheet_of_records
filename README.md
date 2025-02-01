@@ -4,4 +4,5 @@ My first pet project using docker-compose.
 
 An application for creating, deleting and editing notes. It's something like a diary.
 
-![image](https://github.com/user-attachments/assets/0f945287-8bbf-4422-9130-523d733f708d)
+![image](https://github.com/user-attachments/assets/ffe340e4-2957-47bd-a1d5-e841800aaa04)
+
